@@ -10,7 +10,7 @@ function Contact() {
                 <div className='h-1 bg-white w-20 rounded-lg'>
                 </div>
             </div>
-            <form action="https://formspree.io/f/xjvnganb" method='POST' className='flex mx-3 flex-col justify-center items-center my-6' >
+            <form action="https://formspree.io/f/mgegaobj" method='POST' className='flex mx-3 flex-col justify-center items-center my-6' >
                 <div className='flex flex-col w-1/2 max-sm:w-full '>
                     <label className='font-semibold text-xl' htmlFor="name">Name<sup className='text-red-700'>*</sup> :</label>
                     <input className='rounded-lg placeholder-black p-2 my-2 text-black' type="text" name="name" id="name" placeholder='Enter your name' required />
