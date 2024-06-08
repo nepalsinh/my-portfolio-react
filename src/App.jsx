@@ -4,6 +4,7 @@ import About from "./components/About"
 import Skill from "./components/Skill"
 import Timeline from "./components/Timeline"
 import Contact from "./components/Contact"
+import Project from "./components/Project"
 import { useState } from "react"
 
 const navItems = [
@@ -25,6 +26,10 @@ const navItems = [
   },
   {
     id: 5,
+    title: "project"
+  },
+  {
+    id: 6,
     title: "contact"
   }
 ];
@@ -48,6 +53,8 @@ function App() {
         <Timeline />
         <hr />
         <Skill />
+        <hr />
+        <Project />
         <hr />
         <Contact />
         <hr />

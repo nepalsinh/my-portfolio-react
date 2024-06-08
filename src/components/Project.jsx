@@ -6,63 +6,46 @@ import { SiTailwindcss } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { TbBrandCpp } from "react-icons/tb";
 
-const skills = [
+const projects = [
     {
         bg: 'hover:bg-yellow-500',
-        icon: <FaHtml5 size={60} />,
-        name: 'HTML'
+        link: 'https://randomhub.vercel.app/',
+        // img: <FaHtml5 size={60} />,
+        name: 'RandomHub'
     },
     {
         bg: 'hover:bg-cyan-500',
-        icon: <FaCss3Alt size={60} />,
-        name: 'CSS'
+        link: 'https://linkagenetwork.vercel.app/',
+        // img: <FaCss3Alt size={60} />,
+        name: 'SocialMedia App'
     },
     {
         bg: 'hover:bg-green-500',
-        icon: <IoLogoJavascript size={60} />,
-        name: 'Java Script'
+        link: 'https://github.com/Nepal7773/Food-recipe',
+        // img: <IoLogoJavascript size={60} />,
+        name: 'Food Recipe'
     },
     {
         bg: 'hover:bg-violet-500',
-        icon: <SiTailwindcss size={60} />,
-        name: 'Tailwind CSS'
-    },
-    {
-        bg: 'hover:bg-red-500',
-        icon: <FaReact size={60} />,
-        name: 'React Js'
-    },
-    {
-        bg: 'hover:bg-cyan-500',
-        icon: <DiNodejs size={60} />,
-        name: 'Node Js'
-    },
-    {
-        bg: 'hover:bg-orange-500',
-        icon: <TbBrandCpp size={60} />,
-        name: 'C++'
-    },
-    {
-        bg: 'hover:bg-fuchsia-500',
-        icon: <FaJava size={60} />,
-        name: 'Java'
-    },
-
+        link: 'https://github.com/Nepal7773/Spotify-Clone',
+        // img: <SiTailwindcss size={60} />,
+        name: 'Spotify Clone'
+    }
 ];
 
-function Skill() {
+function Project() {
     return (
-        <div id='skills'>
+        <div id='projects'>
             <div className='flex flex-col justify-center items-center py-5'>
                 <div className='font-semibold text-2xl'>
-                    SKILLS
+                    PROJECTS
                 </div>
                 <div className='h-1 bg-white w-20 rounded-lg'>
                 </div>
             </div>
             <div className='flex justify-around items-center my-6 flex-wrap gap-4'>
                 {
-                    skills.map((item, index) => (
+                    projects.map((item, index) => (
                         <Card key={index} item={item} />
                     ))
                 }
@@ -71,4 +54,4 @@ function Skill() {
     )
 }
 
-export default Skill
+export default Project
