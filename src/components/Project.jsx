@@ -21,15 +21,27 @@ const projects = [
     },
     {
         bg: 'hover:bg-green-500',
-        link: 'https://github.com/Nepal7773/Food-recipe',
+        link: 'https://github.com/nepalsinh/Food-recipe',
         // img: <IoLogoJavascript size={60} />,
         name: 'Food Recipe'
     },
     {
         bg: 'hover:bg-violet-500',
-        link: 'https://github.com/Nepal7773/Spotify-Clone',
+        link: 'https://github.com/nepalsinh/Spotify-Clone',
         // img: <SiTailwindcss size={60} />,
         name: 'Spotify Clone'
+    },
+    {
+        bg: 'hover:bg-green-500',
+        link: 'https://mystery-msgs.vercel.app/',
+        // img: <IoLogoJavascript size={60} />,
+        name: 'Mystery Messages'
+    },
+    {
+        bg: 'hover:bg-violet-500',
+        link: 'https://nepalblogs.vercel.app/',
+        // img: <SiTailwindcss size={60} />,
+        name: 'My Blogs'
     }
 ];
 
