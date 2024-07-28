@@ -32,7 +32,7 @@ function About() {
                             <SiCodechef />
                             <p>CodeChef</p>
                         </a>
-                        <a href='https://github.com/nepal7773/' target='_blank' className='flex items-center gap-4'>
+                        <a href='https://github.com/nepalsinh/' target='_blank' className='flex items-center gap-4'>
                             <FaGithub />
                             <p>Github</p>
                         </a>
