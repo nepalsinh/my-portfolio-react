@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiCodechef } from "react-icons/si";
+import { SiCodechef, SiGeeksforgeeks } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { SiLeetcode } from "react-icons/si";
@@ -28,9 +28,9 @@ function About() {
                         </div>
                     </div>
                     <div className='flex flex-col '>
-                        <a href='https://www.codechef.com/users/nepalsinh_018' target='_blank' className='flex items-center gap-4'>
-                            <SiCodechef />
-                            <p>CodeChef</p>
+                        <a href='https://www.geeksforgeeks.org/user/nepalsinh_018/' target='_blank' className='flex items-center gap-4'>
+                            <SiGeeksforgeeks />
+                            <p>Geeksforgeeks</p>
                         </a>
                         <a href='https://github.com/nepalsinh/' target='_blank' className='flex items-center gap-4'>
                             <FaGithub />
@@ -46,7 +46,7 @@ function About() {
                 </div> */}
                 <div className='flex-1 flex flex-col justify-center items-center'>
                     <div className='w-1/2 max-md:w-full max-sm:text-center mx-10 font-semibold'>
-                        Welcome to my portfolio website. My name is Nepal. I am a web developer and competitive Programmer.Throughout my career, I have worked on various projects and initiatives that have helped me Sharp my skills in web development. I have extensive knowledge of programming languages including C++, java, Javascript, Node js, ReactJs, NextJS etc. I have used my programming skills to develop many project which given below.
+                        Welcome to my portfolio website. My name is Nepal. I am a web developer and competitive Programmer.Throughout my career, I have worked on various projects and initiatives that have helped me Sharp my skills in web development. I have extensive knowledge of programming languages including C++, java, Javascript, Node js, ReactJs, NextJS etc. I have used my programming skills to develop many project which given below.I have solved <b className='text-orange-400'>200+</b> problems in total.
                     </div>
                     <div className='flex flex-col my-5'>
                         <a href='https://leetcode.com/nepalsinh_018/' target='_blank' className='flex items-center gap-4'>

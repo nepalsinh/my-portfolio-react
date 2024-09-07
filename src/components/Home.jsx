@@ -8,7 +8,7 @@ function Home() {
             </div>
             <div className='flex-1 flex flex-col gap-2 max-lg:items-center justify-center'>
                 <div className='font-semibold text-5xl max-md:text-3xl'>Hello I'm</div>
-                <div className='font-semibold text-5xl max-md:text-3xl'>Nepalsinh Rajput</div>
+                <div className='font-semibold text-5xl max-md:text-3xl text-orange-600'>Nepalsinh Rajput</div>
                 <div className=' text-2xl'>I am Programmer</div>
                 <div className='flex gap-3 items-center'>
                     <a href='#contact' className='bg-neutral-800 px-3 py-2 rounded-sm hover:scale-95 transition-all' >Contact ME</a>

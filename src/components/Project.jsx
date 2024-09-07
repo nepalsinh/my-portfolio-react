@@ -32,10 +32,16 @@ const projects = [
         name: 'Spotify Clone'
     },
     {
-        bg: 'hover:bg-green-500',
+        bg: 'hover:bg-red-500',
         link: 'https://mystery-msgs.vercel.app/',
         // img: <IoLogoJavascript size={60} />,
         name: 'Mystery Messages'
+    },
+    {
+        bg: 'hover:bg-green-500',
+        link: 'https://theprojectnest.vercel.app/',
+        // img: <SiTailwindcss size={60} />,
+        name: 'Project Nest'
     },
     {
         bg: 'hover:bg-violet-500',

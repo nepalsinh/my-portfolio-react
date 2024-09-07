@@ -1,8 +1,8 @@
 import React from 'react'
 import Card from './Card'
-import { FaCss3Alt, FaHtml5, FaJava, FaReact } from "react-icons/fa";
+import { FaCss3Alt, FaDatabase, FaHtml5, FaJava, FaPython, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { TbBrandCpp } from "react-icons/tb";
 
@@ -29,6 +29,16 @@ const skills = [
     },
     {
         bg: 'hover:bg-red-500',
+        icon: <SiMongodb size={60} />,
+        name: 'MongoDB'
+    },
+    {
+        bg: 'hover:bg-green-500',
+        icon: <SiExpress size={60} />,
+        name: 'Express Js'
+    },
+    {
+        bg: 'hover:bg-red-500',
         icon: <FaReact size={60} />,
         name: 'React Js'
     },
@@ -36,6 +46,16 @@ const skills = [
         bg: 'hover:bg-cyan-500',
         icon: <DiNodejs size={60} />,
         name: 'Node Js'
+    },
+    {
+        bg: 'hover:bg-violet-500',
+        icon: <FaDatabase size={60} />,
+        name: 'SQL'
+    },
+    {
+        bg: 'hover:bg-fuchsia-500',
+        icon: <FaPython size={60} />,
+        name: 'Python'
     },
     {
         bg: 'hover:bg-orange-500',
@@ -47,6 +67,7 @@ const skills = [
         icon: <FaJava size={60} />,
         name: 'Java'
     },
+
 
 ];
 
